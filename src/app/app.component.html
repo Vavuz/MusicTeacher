@@ -1,19 +1,18 @@
-<header>
-  <div class="banner">
-    <img src="../assets/images/banner.jpg" alt="Musical Instruments Banner">
-  </div>
-  <nav>
-    <ul>
-      <li><a routerLink="/app-home" routerLinkActive="active">Home</a></li>
-      <li><a routerLink="/app-services" routerLinkActive="active">Services</a></li>
-      <li><a routerLink="/app-contact" routerLinkActive="active">Contact</a></li>
-    </ul>
-  </nav>
-</header>
-<main>
-    <img src="../assets/images/michele.png" class="profile-img" alt="Profile Picture">
-    <div class="content">
-      <router-outlet></router-outlet>
-    </div>
-</main>
-
+<body>
+  <header>
+    <img src="../assets/images/banner.jpg" class="banner" alt="Musical Instruments Banner">
+    <nav>
+      <ul>
+        <li><a routerLink="/app-home" routerLinkActive="active">Home</a></li>
+        <li><a routerLink="/app-services" routerLinkActive="active">Services</a></li>
+        <li><a routerLink="/app-contact" routerLinkActive="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+      <img src="../assets/images/michele.png" class="profile-img" alt="Profile Picture">
+      <div class="content">
+        <router-outlet></router-outlet>
+      </div>
+  </main>
+</body>
